@@ -43,6 +43,7 @@
 
 #benaderen met index niet mogelijk
 #hele set benaderen met for statement
+# end= iets toevoegen aan elke waarde in de set ipv de standaart handmatige ENTER.
 # lijst = {"Dit", "Dat"}
 # for l in lijst:
 #     print(l.upper(), end= ' | ')
