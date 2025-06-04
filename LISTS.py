@@ -85,3 +85,17 @@ print(list2)
 list2.sort()
 print(list2)
 
+#slicen = meerdere elementen verwijderen / eruit filteren. Gaat om indexen eruit halen
+print(list2[0:2])
+print(list2[:4])  #vanaf begin alleen 4e index eraf
+print(list2[2:])  #2e index eraf inclusief einde
+print(list2[::2]) #eraf met index 2 stappen
+print(list2[::-1]) #omdraaien
+print(list2[::-2]) # omdraaien en om de index 1 eruit halen
+
+# op specifieke slice index elemente toevoegen
+list2[0:3] = [8,8,8,8,8]
+print(list2)
+
+
+
