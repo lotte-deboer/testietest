@@ -89,10 +89,10 @@
 # print(dic_list)
 # print(dic_list[0])
 
-student_grades = {'Erik': [2.3, 8, 6.4, 1], 'Lotte':[3.3, 5.6, 7.4, 9.1], 'Atlas':[1, 3]}
-final_grade = {student: round(sum(grades)/len(grades),1) for student,grades in student_grades.items()}
-for name, grade in final_grade.items():
-    if grade < 5.5:
-        final_grade[name] = 5.5
-
-print(final_grade)
+# student_grades = {'Erik': [2.3, 8, 6.4, 1], 'Lotte':[3.3, 5.6, 7.4, 9.1], 'Atlas':[1, 3]}
+# final_grade = {student: round(sum(grades)/len(grades),1) for student,grades in student_grades.items()}
+# for name, grade in final_grade.items():
+#     if grade < 5.5:
+#         final_grade[name] = 5.5
+#
+# print(final_grade)
