@@ -12,6 +12,8 @@
 #
 # leeg_dict = {}
 
+#Dict kan je ook maken met de dic functie, dan ziet de aanmaak er wat anders uit!
+
 # Vergelijken met elkaar, alleen true als key en value exact hetzelfde is als andere key en value. De volgorde maakt hierbij niet uit.
 # print(nieuwe_dictionary == leeg_dict)
 
@@ -83,6 +85,10 @@
 #Alleen selecteren keys of values
 # print(voorbeeld_dict.keys())
 # print(voorbeeld_dict.values())
+
+#hele set selecteren is .items()
+
+#dict veranderen naar set om duplicates eruit te halen. met set(naam dict)
 
 #een dict veranderen naar een list
 # dic_list = list(voorbeeld_dict.values())
